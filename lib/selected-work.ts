@@ -2,20 +2,20 @@
 export const selectedWorkCards = [
   {
     href: "/work/api-onboarding",
-    title: "API Onboarding Experience",
+    title: "API Partner Onboarding",
     description:
-      "Streamlined a fragmented onboarding process into a clearer, more scalable self-service experience for developers and internal teams.",
+      "Structured a legacy Open Banking onboarding path into progressive intake—less manual coordination, faster time to integration.",
   },
   {
     href: "/work/performance-dashboard",
-    title: "Performance Dashboards",
+    title: "Performance Intelligence Dashboards",
     description:
-      "Designed self-service dashboards that transformed raw technical data into actionable insights for product managers and stakeholders.",
+      "Turned backend telemetry into self-service views so product owners could monitor API health without engineering extracts.",
   },
   {
     href: "/work/rbac-governance",
-    title: "RBAC & Governance",
+    title: "Enterprise Governance & RBAC",
     description:
-      "Created a role-based access model that improved permissions clarity, reduced support burden, and better aligned with governance needs.",
+      "Defined a tiered permissions model with guardrails so ownership stayed clear and access risk dropped as the platform grew.",
   },
 ] as const;
