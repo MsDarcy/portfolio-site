@@ -387,8 +387,16 @@ body {
   line-height: 1.15;
 }
 
-.case-study__intro:not(:has(.case-study__subtitle)) .case-study__title {
+.case-study__intro:not(:has(.case-study__subtitle)):not(:has(.case-study__summary))
+  .case-study__title {
   margin-bottom: 0;
+}
+
+.case-study__summary {
+  margin: 0 0 0.85rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
 }
 
 .case-study__subtitle {

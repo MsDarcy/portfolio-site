@@ -14,6 +14,7 @@ export default function ApiOnboardingPage() {
       className="case-study--wide"
       sectionsClassName="case-study__sections--artifacts"
       title="API Partner Onboarding"
+      summary="Restructured onboarding into a progressive, persistent workflow that reduced manual coordination and enabled partners to reach integration readiness faster while preserving technical accuracy."
       subtitle={
         <>
           <p>Internal and 3rd Party API Partner Platform</p>

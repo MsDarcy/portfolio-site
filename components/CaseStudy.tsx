@@ -9,6 +9,7 @@ function headingId(heading: string) {
 
 export function CaseStudy({
   title,
+  summary,
   subtitle,
   belowIntro,
   className,
@@ -16,6 +17,7 @@ export function CaseStudy({
   children,
 }: {
   title: string;
+  summary?: string;
   subtitle?: React.ReactNode;
   belowIntro?: React.ReactNode;
   className?: string;
@@ -29,6 +31,7 @@ export function CaseStudy({
       </Link>
       <header className="case-study__intro">
         <h1 className="case-study__title">{title}</h1>
+        {summary ? <p className="case-study__summary">{summary}</p> : null}
         {subtitle ? <div className="case-study__subtitle">{subtitle}</div> : null}
       </header>
       {belowIntro}

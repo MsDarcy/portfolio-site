@@ -14,6 +14,7 @@ export default function PerformanceDashboardPage() {
       className="case-study--wide"
       sectionsClassName="case-study__sections--artifacts"
       title="Performance Intelligence Dashboards"
+      summary="Translated backend telemetry into decision-ready dashboards that enabled product managers to independently monitor API health, improving visibility into adoption, reliability, and performance trends."
       subtitle={
         <>
           <p>Internal Dashboard for Product Owners</p>

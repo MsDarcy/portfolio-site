@@ -14,6 +14,7 @@ export default function RbacGovernancePage() {
       className="case-study--wide"
       sectionsClassName="case-study__sections--artifacts"
       title="Enterprise Governance & Role-Based Access Control (RBAC)"
+      summary="Established a scalable role-based access framework with guardrails that clarified ownership boundaries, reduced access risk, and supported secure platform growth."
       subtitle={
         <>
           <p>Banking API for Developer Ecosystem</p>
