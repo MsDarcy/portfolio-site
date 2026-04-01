@@ -456,6 +456,52 @@ body {
   margin-bottom: 0;
 }
 
+.case-study--wide {
+  max-width: 900px;
+}
+
+.case-study__intro:has(+ .case-study-figure) {
+  margin-bottom: 0;
+}
+
+.case-study__sections--artifacts {
+  gap: 0;
+}
+
+/* Case study figures (SVG / image artifacts) */
+.case-study-figure {
+  margin: 48px auto;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.case-study-figure__frame {
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.case-study-figure__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.case-study-figure__caption {
+  margin-top: 12px;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--color-text-muted);
+}
+
+.case-study__prose .case-study-figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* ——— Home ——— */
 
 .home {

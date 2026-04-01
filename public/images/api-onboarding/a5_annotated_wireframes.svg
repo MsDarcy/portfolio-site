@@ -1,0 +1,67 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="420" fill="#ffffff"/>
+
+  <!-- Panel 1 -->
+  <rect x="20" y="20" width="264" height="360" rx="6" fill="#ffffff" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="38" y="50" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a">Business profile</text>
+
+  <rect x="36" y="64" width="230" height="108" rx="4" fill="none" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="50" y="84" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">company info</text>
+  <rect x="48" y="92" width="206" height="22" rx="3" fill="#f5f4f1"/>
+  <rect x="48" y="122" width="206" height="22" rx="3" fill="#f5f4f1"/>
+  <rect x="48" y="158" width="206" height="8" rx="2" fill="#eeede9"/>
+
+  <rect x="36" y="184" width="230" height="108" rx="4" fill="none" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="50" y="204" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">contact</text>
+  <rect x="48" y="212" width="206" height="22" rx="3" fill="#f5f4f1"/>
+  <rect x="48" y="242" width="206" height="22" rx="3" fill="#f5f4f1"/>
+  <rect x="48" y="278" width="206" height="8" rx="2" fill="#eeede9"/>
+
+  <rect x="36" y="310" width="3" height="42" fill="#378add"/>
+  <text x="46" y="328" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2c2c2a">Related fields grouped</text>
+  <text x="46" y="346" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2c2c2a">by context</text>
+
+  <!-- Panel 2 -->
+  <rect x="318" y="20" width="264" height="360" rx="6" fill="#ffffff" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="336" y="50" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a">Technical intake</text>
+
+  <text x="336" y="80" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">Auth protocol</text>
+  <rect x="336" y="90" width="228" height="36" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="350" y="112" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">OAuth 2.0 / SAML / API key</text>
+  <text x="336" y="142" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#378add">Each option has inline context</text>
+
+  <text x="336" y="168" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">Data region</text>
+  <rect x="336" y="178" width="228" height="36" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <rect x="336" y="256" width="3" height="32" fill="#378add"/>
+  <text x="346" y="270" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2c2c2a">Labels reduce</text>
+  <text x="346" y="286" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2c2c2a">clarification requests</text>
+
+  <!-- Panel 3 -->
+  <rect x="616" y="20" width="264" height="360" rx="6" fill="#ffffff" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="634" y="50" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a">Progressive reveal</text>
+
+  <!-- Step done -->
+  <circle cx="650" cy="90" r="9" fill="none" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="650" y="94" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#888780" text-anchor="middle">✓</text>
+  <text x="668" y="94" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Business profile</text>
+
+  <!-- Step active -->
+  <circle cx="650" cy="134" r="9" fill="none" stroke="#378add" stroke-width="1.5"/>
+  <circle cx="650" cy="134" r="4" fill="#378add"/>
+  <text x="668" y="138" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="500" fill="#2c2c2a">Auth config</text>
+
+  <!-- Steps locked -->
+  <circle cx="650" cy="178" r="9" fill="none" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="668" y="182" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#d3d1c7">Data schema</text>
+
+  <circle cx="650" cy="218" r="9" fill="none" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="668" y="222" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#d3d1c7">Validation</text>
+
+  <rect x="634" y="272" width="3" height="42" fill="#378add"/>
+  <text x="644" y="290" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2c2c2a">Later stages unlock</text>
+  <text x="644" y="308" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2c2c2a">on completion</text>
+
+  <!-- Caption -->
+  <text x="20" y="400" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Interfaces designed to support both business and technical stakeholders.</text>
+</svg>

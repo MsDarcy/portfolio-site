@@ -1,0 +1,56 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#b4b2a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-dash" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#b4b2a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="900" height="320" fill="#ffffff"/>
+
+  <!-- Source nodes -->
+  <rect x="28" y="28" width="112" height="40" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="84" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" text-anchor="middle" dominant-baseline="central">Wiki docs</text>
+
+  <rect x="160" y="28" width="128" height="40" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="224" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" text-anchor="middle" dominant-baseline="central">Email threads</text>
+
+  <rect x="308" y="28" width="128" height="40" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="372" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" text-anchor="middle" dominant-baseline="central">Spreadsheets</text>
+
+  <rect x="456" y="28" width="132" height="40" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="522" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" text-anchor="middle" dominant-baseline="central">PM mediation</text>
+
+  <rect x="608" y="28" width="148" height="40" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="682" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" text-anchor="middle" dominant-baseline="central">Eng clarification</text>
+
+  <!-- Converging lines -->
+  <line x1="84" y1="68" x2="310" y2="148" stroke="#b4b2a9" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <line x1="224" y1="68" x2="340" y2="148" stroke="#b4b2a9" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <line x1="372" y1="68" x2="372" y2="148" stroke="#b4b2a9" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <line x1="522" y1="68" x2="420" y2="148" stroke="#b4b2a9" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <line x1="682" y1="68" x2="450" y2="148" stroke="#b4b2a9" stroke-width="0.5" marker-end="url(#arrow)"/>
+
+  <!-- Manual coordination hub -->
+  <rect x="240" y="148" width="280" height="56" rx="4" fill="#f5f4f1" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="380" y="169" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a" text-anchor="middle" dominant-baseline="central">Manual coordination</text>
+  <text x="380" y="189" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" text-anchor="middle" dominant-baseline="central">no single source of truth</text>
+
+  <!-- Rework loops -->
+  <path d="M240 172 Q160 172 160 48 L172 48" fill="none" stroke="#b4b2a9" stroke-width="0.5" stroke-dasharray="3 3" marker-end="url(#arrow-dash)"/>
+  <path d="M520 172 Q640 172 640 48 L608 48" fill="none" stroke="#b4b2a9" stroke-width="0.5" stroke-dasharray="3 3" marker-end="url(#arrow-dash)"/>
+  <text x="178" y="164" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" text-anchor="middle">↻ rework</text>
+  <text x="582" y="164" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" text-anchor="middle">↻ rework</text>
+
+  <!-- Arrow down -->
+  <line x1="380" y1="204" x2="380" y2="234" stroke="#b4b2a9" stroke-width="0.5" marker-end="url(#arrow)"/>
+
+  <!-- Outcome: accent box -->
+  <rect x="240" y="234" width="280" height="48" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.5"/>
+  <text x="380" y="254" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#0c447c" text-anchor="middle" dominant-baseline="central">Delayed onboarding</text>
+  <text x="380" y="272" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#185fa5" text-anchor="middle" dominant-baseline="central">avg. 90-day cycle</text>
+
+  <!-- Caption -->
+  <text x="28" y="304" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Legacy onboarding relied on fragmented documentation and manual coordination across teams.</text>
+</svg>

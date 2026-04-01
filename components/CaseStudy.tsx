@@ -10,14 +10,20 @@ function headingId(heading: string) {
 export function CaseStudy({
   title,
   subtitle,
+  belowIntro,
+  className,
+  sectionsClassName,
   children,
 }: {
   title: string;
   subtitle?: React.ReactNode;
+  belowIntro?: React.ReactNode;
+  className?: string;
+  sectionsClassName?: string;
   children: React.ReactNode;
 }) {
   return (
-    <article className="case-study">
+    <article className={["case-study", className].filter(Boolean).join(" ")}>
       <Link href="/work" className="case-study__back">
         ← Selected Work
       </Link>
@@ -25,7 +31,12 @@ export function CaseStudy({
         <h1 className="case-study__title">{title}</h1>
         {subtitle ? <div className="case-study__subtitle">{subtitle}</div> : null}
       </header>
-      <div className="case-study__sections">{children}</div>
+      {belowIntro}
+      <div
+        className={["case-study__sections", sectionsClassName].filter(Boolean).join(" ")}
+      >
+        {children}
+      </div>
     </article>
   );
 }

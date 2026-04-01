@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CaseStudy, CaseStudySection } from "@/components/CaseStudy";
+import { CaseStudyFigure } from "@/components/CaseStudyFigure";
 
 export const metadata: Metadata = {
   title: "API Partner Onboarding",
@@ -10,12 +11,21 @@ export const metadata: Metadata = {
 export default function ApiOnboardingPage() {
   return (
     <CaseStudy
+      className="case-study--wide"
+      sectionsClassName="case-study__sections--artifacts"
       title="API Partner Onboarding"
       subtitle={
         <>
           <p>Internal and 3rd Party API Partner Platform</p>
           <p>Enterprise B2B</p>
         </>
+      }
+      belowIntro={
+        <CaseStudyFigure
+          src="/images/api-onboarding/a4_new_onboarding_flow.svg"
+          alt="New onboarding flow structured by implementation stages"
+          caption="Structured onboarding aligned to implementation stages"
+        />
       }
     >
       <CaseStudySection heading="Situation">
@@ -40,6 +50,11 @@ export default function ApiOnboardingPage() {
           source of operational risk.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/api-onboarding/a1_legacy_complexity_map.svg"
+        alt="Map of legacy onboarding complexity and disconnected requirements"
+        caption="Legacy onboarding required navigating disconnected technical requirements upfront"
+      />
       <CaseStudySection heading="Task">
         <p>
           As the product designer embedded with the API platform team, I was
@@ -54,6 +69,11 @@ export default function ApiOnboardingPage() {
           compliance or engineering requirements.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/api-onboarding/a2_question_audit_framework.svg"
+        alt="Framework categorizing technical questions by implementation stage"
+        caption="50+ technical questions categorized by implementation stage and ownership"
+      />
       <CaseStudySection heading="Action">
         <p>
           I began by mapping the end-to-end onboarding workflow across Product,
@@ -69,7 +89,17 @@ export default function ApiOnboardingPage() {
           This enabled a progressive disclosure model that preserved data
           integrity while reducing initial friction.
         </p>
+        <CaseStudyFigure
+          src="/images/api-onboarding/a3_progressive_disclosure_model.svg"
+          alt="Progressive disclosure model for onboarding questions"
+          caption="Progressive disclosure reduced friction while preserving technical completeness"
+        />
         <p>I designed a two-tier onboarding structure.</p>
+        <CaseStudyFigure
+          src="/images/api-onboarding/a5_annotated_wireframes.svg"
+          alt="Annotated wireframes for business and technical onboarding paths"
+          caption="Interface patterns supported both business and technical workflows"
+        />
         <p>
           Tier 1 established a partnership profile through a fast-track intake
           of 11 essential questions. This enabled teams to initiate partnerships
@@ -93,6 +123,11 @@ export default function ApiOnboardingPage() {
           regression into fragmented manual processes.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/api-onboarding/a6_system_persistence_model.svg"
+        alt="System model for persistent onboarding data across phases"
+        caption="Persistent data structure enabled continuity across onboarding phases"
+      />
       <CaseStudySection heading="Result">
         <p>
           The redesigned onboarding system reduced estimated cycle time from
@@ -108,6 +143,11 @@ export default function ApiOnboardingPage() {
           Most importantly, the platform gained a scalable onboarding foundation
           that could evolve without reintroducing fragmented intake patterns.
         </p>
+        <CaseStudyFigure
+          src="/images/api-onboarding/a7_impact_summary.svg"
+          alt="Summary of onboarding cycle time and coordination impact"
+          caption="Reduced onboarding cycle time and manual coordination burden"
+        />
       </CaseStudySection>
     </CaseStudy>
   );

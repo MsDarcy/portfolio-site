@@ -1,0 +1,35 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="320" fill="#ffffff"/>
+
+  <!-- Card 1 -->
+  <rect x="20" y="20" width="420" height="120" rx="6" fill="#f5f4f1"/>
+  <text x="40" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">Cycle time</text>
+  <text x="40" y="90" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#b4b2a9" text-decoration="line-through">90 days</text>
+  <text x="108" y="90" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#b4b2a9">→</text>
+  <text x="128" y="96" font-family="system-ui,-apple-system,sans-serif" font-size="34" font-weight="500" fill="#2c2c2a">3–4 wks</text>
+  <text x="40" y="118" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#378add">~75% reduction</text>
+
+  <!-- Card 2 -->
+  <rect x="460" y="20" width="420" height="120" rx="6" fill="#f5f4f1"/>
+  <text x="480" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">Manual coordination work</text>
+  <text x="480" y="90" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#b4b2a9" text-decoration="line-through">100%</text>
+  <text x="538" y="90" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#b4b2a9">→</text>
+  <text x="558" y="96" font-family="system-ui,-apple-system,sans-serif" font-size="34" font-weight="500" fill="#2c2c2a">25%</text>
+  <text x="480" y="118" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#378add">75% reduction</text>
+
+  <!-- Bar chart -->
+  <rect x="20" y="158" width="860" height="120" rx="6" fill="#f5f4f1"/>
+  <text x="40" y="184" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">Operational burden — before vs. after</text>
+
+  <text x="40" y="212" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a">Before</text>
+  <rect x="116" y="200" width="700" height="10" rx="5" fill="#d3d1c7"/>
+  <text x="836" y="212" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780" text-anchor="end">100%</text>
+
+  <text x="40" y="248" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a">After</text>
+  <rect x="116" y="236" width="700" height="10" rx="5" fill="#e8e6de"/>
+  <rect x="116" y="236" width="175" height="10" rx="5" fill="#378add"/>
+  <text x="836" y="248" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780" text-anchor="end">25%</text>
+
+  <!-- Caption -->
+  <text x="20" y="304" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Reduced onboarding cycle time and operational burden.</text>
+</svg>
