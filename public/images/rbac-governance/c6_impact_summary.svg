@@ -1,0 +1,31 @@
+<svg width="900" height="340" viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="340" fill="#ffffff"/>
+
+  <!-- Card 1: Support friction -->
+  <rect x="20" y="20" width="420" height="116" rx="6" fill="#f5f4f1"/>
+  <text x="40" y="46" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">Support friction</text>
+  <text x="40" y="84" font-family="system-ui,-apple-system,sans-serif" font-size="32" font-weight="500" fill="#2c2c2a">Reduced</text>
+  <text x="40" y="112" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a">Fewer escalations for access and permission questions post-launch</text>
+
+  <!-- Card 2: Admin mental model -->
+  <rect x="460" y="20" width="420" height="116" rx="6" fill="#f5f4f1"/>
+  <text x="480" y="46" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">Admin mental model</text>
+  <text x="480" y="84" font-family="system-ui,-apple-system,sans-serif" font-size="32" font-weight="500" fill="#2c2c2a">Clearer</text>
+  <text x="480" y="112" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a">Role labels and permission scope aligned with how orgs actually work</text>
+
+  <!-- System properties card -->
+  <rect x="20" y="152" width="860" height="148" rx="6" fill="#f5f4f1"/>
+  <text x="40" y="178" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">System properties delivered</text>
+
+  <circle cx="44" cy="210" r="3" fill="#378add"/>
+  <text x="58" y="214" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#5f5e5a" dominant-baseline="central">No org ever left without admin coverage</text>
+
+  <circle cx="44" cy="242" r="3" fill="#378add"/>
+  <text x="58" y="246" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#5f5e5a" dominant-baseline="central">Billing and membership controls kept separate by design</text>
+
+  <circle cx="44" cy="274" r="3" fill="#378add"/>
+  <text x="58" y="278" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#5f5e5a" dominant-baseline="central">Role model extended to two additional products without redesign</text>
+
+  <!-- Caption -->
+  <text x="20" y="322" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Governance system designed for operational continuity at scale.</text>
+</svg>

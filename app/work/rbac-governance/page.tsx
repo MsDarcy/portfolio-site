@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CaseStudy, CaseStudySection } from "@/components/CaseStudy";
+import { CaseStudyFigure } from "@/components/CaseStudyFigure";
 
 export const metadata: Metadata = {
   title: "Enterprise Governance & RBAC",
@@ -10,12 +11,21 @@ export const metadata: Metadata = {
 export default function RbacGovernancePage() {
   return (
     <CaseStudy
+      className="case-study--wide"
+      sectionsClassName="case-study__sections--artifacts"
       title="Enterprise Governance & Role-Based Access Control (RBAC)"
       subtitle={
         <>
           <p>Banking API for Developer Ecosystem</p>
           <p>Enterprise B2B</p>
         </>
+      }
+      belowIntro={
+        <CaseStudyFigure
+          src="/images/rbac-governance/c1_permission_architecture.svg"
+          alt="Permission architecture aligned to least-privilege governance"
+          caption="Governance architecture aligned to least-privilege principles"
+        />
       }
     >
       <CaseStudySection heading="Situation">
@@ -38,6 +48,11 @@ export default function RbacGovernancePage() {
           teams managing secure API projects.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/rbac-governance/c5_decision_tradeoffs.svg"
+        alt="Tradeoffs between team autonomy and security continuity in governance"
+        caption="Governance tradeoffs required balancing autonomy with security continuity"
+      />
       <CaseStudySection heading="Task">
         <p>
           As the embedded product designer working with platform engineering,
@@ -55,6 +70,11 @@ export default function RbacGovernancePage() {
           could confidently manage permissions without external support.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/rbac-governance/c2_role_matrix.svg"
+        alt="Role matrix defining authority boundaries and ownership continuity"
+        caption="Role matrix clarified authority boundaries and ownership continuity"
+      />
       <CaseStudySection heading="Action">
         <p>
           I began by auditing existing permission workflows and reviewing support
@@ -67,6 +87,11 @@ export default function RbacGovernancePage() {
           I reframed the problem from interface design to security architecture
           expressed through interaction design.
         </p>
+        <CaseStudyFigure
+          src="/images/rbac-governance/c3_edge_case_logic_flow.svg"
+          alt="Logic flow for access continuity across role transitions"
+          caption="Edge case logic ensured continuity of access across role transitions"
+        />
         <p>
           Working closely with engineering and security partners, I designed a
           tiered RBAC model with clearly scoped authority levels:
@@ -81,6 +106,11 @@ export default function RbacGovernancePage() {
             implementation needs.
           </li>
         </ul>
+        <CaseStudyFigure
+          src="/images/rbac-governance/c4_component_patterns.svg"
+          alt="UI component patterns for permission scope and governance"
+          caption="Component patterns communicated permission scope and governance responsibility"
+        />
         <p>
           To reduce single points of failure, I introduced guardrails requiring
           at least two administrators per project. If a project approached an
@@ -115,6 +145,11 @@ export default function RbacGovernancePage() {
           enabling the platform to scale securely without increasing coordination
           overhead.
         </p>
+        <CaseStudyFigure
+          src="/images/rbac-governance/c6_impact_summary.svg"
+          alt="Summary of governance impact on support and platform resilience"
+          caption="Preventative governance reduced support escalations and strengthened platform resilience"
+        />
       </CaseStudySection>
     </CaseStudy>
   );

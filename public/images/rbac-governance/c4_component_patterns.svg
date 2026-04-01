@@ -1,0 +1,60 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="300" fill="#ffffff"/>
+
+  <!-- Panel 1: Role selector -->
+  <rect x="20" y="20" width="410" height="240" rx="6" fill="#ffffff" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="36" y="46" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#5f5e5a">Role selector</text>
+  <line x1="20" y1="56" x2="430" y2="56" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <text x="36" y="80" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">Assign role</text>
+
+  <!-- Admin option: selected -->
+  <rect x="36" y="90" width="378" height="52" rx="4" fill="#ffffff" stroke="#378add" stroke-width="0.5"/>
+  <circle cx="58" cy="116" r="7" fill="none" stroke="#378add" stroke-width="1.5"/>
+  <circle cx="58" cy="116" r="3" fill="#378add"/>
+  <text x="74" y="110" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="500" fill="#2c2c2a" dominant-baseline="auto">Admin</text>
+  <text x="74" y="128" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#888780" dominant-baseline="auto">Manage members and workspaces</text>
+
+  <!-- Developer option: unselected -->
+  <rect x="36" y="150" width="378" height="52" rx="4" fill="#ffffff" stroke="#d3d1c7" stroke-width="0.5"/>
+  <circle cx="58" cy="176" r="7" fill="none" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="74" y="170" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="auto">Developer</text>
+  <text x="74" y="188" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#888780" dominant-baseline="auto">API access, build and test</text>
+
+  <!-- Caption callout -->
+  <text x="36" y="228" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">Role selector with active state and description</text>
+
+  <!-- Panel 2: Permission editor -->
+  <rect x="470" y="20" width="410" height="240" rx="6" fill="#ffffff" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="486" y="46" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#5f5e5a">Permission editor</text>
+  <line x1="470" y1="56" x2="880" y2="56" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <text x="486" y="80" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780">Developer permissions</text>
+
+  <!-- Toggle rows: on -->
+  <text x="486" y="108" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">API access</text>
+  <rect x="818" y="100" width="28" height="16" rx="8" fill="#378add"/>
+  <circle cx="834" cy="108" r="6" fill="#ffffff"/>
+
+  <line x1="486" y1="124" x2="860" y2="124" stroke="#d3d1c7" stroke-width="0.5" opacity="0.5"/>
+
+  <text x="486" y="142" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">Read workspace config</text>
+  <rect x="818" y="134" width="28" height="16" rx="8" fill="#378add"/>
+  <circle cx="834" cy="142" r="6" fill="#ffffff"/>
+
+  <line x1="486" y1="158" x2="860" y2="158" stroke="#d3d1c7" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Toggle rows: off -->
+  <text x="486" y="176" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#b4b2a9" dominant-baseline="central">Manage members</text>
+  <rect x="818" y="168" width="28" height="16" rx="8" fill="#e8e6de"/>
+  <circle cx="822" cy="176" r="6" fill="#ffffff"/>
+
+  <line x1="486" y1="192" x2="860" y2="192" stroke="#d3d1c7" stroke-width="0.5" opacity="0.5"/>
+
+  <text x="486" y="210" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#b4b2a9" dominant-baseline="central">Billing access</text>
+  <rect x="818" y="202" width="28" height="16" rx="8" fill="#e8e6de"/>
+  <circle cx="822" cy="210" r="6" fill="#ffffff"/>
+
+  <!-- Caption -->
+  <text x="20" y="282" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Reusable patterns support scalable governance across products.</text>
+</svg>
