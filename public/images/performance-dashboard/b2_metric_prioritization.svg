@@ -1,0 +1,39 @@
+<svg width="900" height="298" viewBox="0 0 900 298" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="298" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="28" y="30" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Metric</text>
+  <text x="188" y="30" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Reason prioritized</text>
+  <text x="548" y="30" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Decision supported</text>
+  <line x1="28" y1="42" x2="872" y2="42" stroke="#2c2c2a" stroke-width="0.5"/>
+
+  <!-- Row 1: Error rate -->
+  <rect x="0" y="43" width="900" height="52" fill="#ffffff"/>
+  <text x="28" y="72" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a" dominant-baseline="central">Error rate</text>
+  <text x="188" y="72" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">Most direct signal of integration health</text>
+  <text x="548" y="72" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">Incident escalation, partner communication</text>
+  <line x1="28" y1="95" x2="872" y2="95" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <!-- Row 2: Latency (alt) -->
+  <rect x="0" y="96" width="900" height="52" fill="#f9f8f6"/>
+  <text x="28" y="125" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a" dominant-baseline="central">Latency</text>
+  <text x="188" y="125" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">UX impact not visible in error data alone</text>
+  <text x="548" y="125" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">SLA review, infrastructure prioritization</text>
+  <line x1="28" y1="148" x2="872" y2="148" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <!-- Row 3: Traffic volume -->
+  <rect x="0" y="149" width="900" height="52" fill="#ffffff"/>
+  <text x="28" y="178" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#2c2c2a" dominant-baseline="central">Traffic volume</text>
+  <text x="188" y="178" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">Contextualizes error and latency readings</text>
+  <text x="548" y="178" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a" dominant-baseline="central">Capacity planning, usage trend analysis</text>
+  <line x1="28" y1="201" x2="872" y2="201" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <!-- Row 4: Excluded (alt, muted) -->
+  <rect x="0" y="202" width="900" height="52" fill="#f9f8f6"/>
+  <text x="28" y="231" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#b4b2a9" dominant-baseline="central">Excluded</text>
+  <text x="188" y="231" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#b4b2a9" dominant-baseline="central">CPU, memory — infra team scope</text>
+  <text x="548" y="231" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#b4b2a9" dominant-baseline="central">Not actionable for product decisions</text>
+
+  <!-- Caption -->
+  <text x="28" y="278" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Identified key signals needed for product decision-making.</text>
+</svg>

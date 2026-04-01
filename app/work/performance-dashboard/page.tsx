@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CaseStudy, CaseStudySection } from "@/components/CaseStudy";
+import { CaseStudyFigure } from "@/components/CaseStudyFigure";
 
 export const metadata: Metadata = {
   title: "Performance Intelligence Dashboards",
@@ -10,12 +11,21 @@ export const metadata: Metadata = {
 export default function PerformanceDashboardPage() {
   return (
     <CaseStudy
+      className="case-study--wide"
+      sectionsClassName="case-study__sections--artifacts"
       title="Performance Intelligence Dashboards"
       subtitle={
         <>
           <p>Internal Dashboard for Product Owners</p>
           <p>Enterprise B2B</p>
         </>
+      }
+      belowIntro={
+        <CaseStudyFigure
+          src="/images/performance-dashboard/b5_final_dashboard.svg"
+          alt="Final dashboard showing API performance signals for product decisions"
+          caption="Decision-oriented visibility into API performance signals"
+        />
       }
     >
       <CaseStudySection heading="Situation">
@@ -40,6 +50,11 @@ export default function PerformanceDashboardPage() {
           decision-making.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/performance-dashboard/b1_raw_data_reality.svg"
+        alt="Raw telemetry and logs requiring engineering interpretation"
+        caption="Raw telemetry required engineering interpretation"
+      />
       <CaseStudySection heading="Task">
         <p>
           As the sole designer embedded with API Product Managers and backend
@@ -56,6 +71,11 @@ export default function PerformanceDashboardPage() {
           maintenance overhead.
         </p>
       </CaseStudySection>
+      <CaseStudyFigure
+        src="/images/performance-dashboard/b2_metric_prioritization.svg"
+        alt="Prioritized metrics aligned with product decisions"
+        caption="Identified signals most relevant to product decision-making"
+      />
       <CaseStudySection heading="Action">
         <p>
           I conducted interviews with Product Managers to understand how
@@ -68,6 +88,11 @@ export default function PerformanceDashboardPage() {
           structures to decision-relevant metrics such as request volume, error
           frequency, and trend stability over time.
         </p>
+        <CaseStudyFigure
+          src="/images/performance-dashboard/b3_data_transformation.svg"
+          alt="Transformation from backend telemetry to structured product signals"
+          caption="Translated backend telemetry into structured product signals"
+        />
         <p>
           Rather than exposing raw technical logs, I designed a translation layer
           that organized system signals into structured visual models aligned
@@ -80,6 +105,11 @@ export default function PerformanceDashboardPage() {
           indicators, with drill-down capability for deeper investigation when
           needed.
         </p>
+        <CaseStudyFigure
+          src="/images/performance-dashboard/b4_wireframe_evolution.svg"
+          alt="Evolution of dashboard wireframes for clearer performance signals"
+          caption="Iterated dashboard structure to improve signal clarity"
+        />
         <p>
           Interactive prototypes were tested with Product Managers to refine
           labeling clarity, filtering behavior, and navigation hierarchy.
@@ -106,6 +136,11 @@ export default function PerformanceDashboardPage() {
           The dashboard established a scalable intelligence layer that aligned
           technical telemetry with product decision-making.
         </p>
+        <CaseStudyFigure
+          src="/images/performance-dashboard/b6_impact_narrative.svg"
+          alt="Impact of dashboards on insight speed and engineering reporting"
+          caption="Enabled faster insight and reduced engineering reporting burden"
+        />
       </CaseStudySection>
     </CaseStudy>
   );

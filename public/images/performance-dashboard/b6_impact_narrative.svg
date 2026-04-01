@@ -1,0 +1,37 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="360" fill="#ffffff"/>
+
+  <!-- Card 1: PM self-service -->
+  <rect x="20" y="20" width="420" height="120" rx="6" fill="#f5f4f1"/>
+  <text x="40" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">PM self-service</text>
+  <text x="40" y="88" font-family="system-ui,-apple-system,sans-serif" font-size="32" font-weight="500" fill="#2c2c2a">Enabled</text>
+  <text x="40" y="118" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a">Product team answers performance questions independently</text>
+
+  <!-- Card 2: Eng dependency -->
+  <rect x="460" y="20" width="420" height="120" rx="6" fill="#f5f4f1"/>
+  <text x="480" y="48" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">Engineering dependency</text>
+  <text x="480" y="88" font-family="system-ui,-apple-system,sans-serif" font-size="32" font-weight="500" fill="#2c2c2a">Reduced</text>
+  <text x="480" y="118" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#5f5e5a">Eng team focus shifted from queries to build work</text>
+
+  <!-- What changed card -->
+  <rect x="20" y="156" width="860" height="164" rx="6" fill="#f5f4f1"/>
+  <text x="40" y="182" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#888780" letter-spacing="0.04em">What changed</text>
+
+  <!-- Before -->
+  <circle cx="44" cy="216" r="3" fill="#d3d1c7"/>
+  <text x="58" y="212" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#5f5e5a">Before —</text>
+  <text x="122" y="212" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#888780">performance questions required Slack threads, log access, or eng availability</text>
+
+  <!-- After -->
+  <circle cx="44" cy="252" r="3" fill="#378add"/>
+  <text x="58" y="248" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#5f5e5a">After —</text>
+  <text x="114" y="248" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#888780">PMs monitor trends, identify anomalies, and escalate with context already in hand</text>
+
+  <!-- Extended -->
+  <circle cx="44" cy="288" r="3" fill="#378add"/>
+  <text x="58" y="284" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#5f5e5a">Extended —</text>
+  <text x="138" y="284" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#888780">dashboard pattern reused across two additional internal tools</text>
+
+  <!-- Caption -->
+  <text x="20" y="342" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#888780">Clarity from complexity — designed for the person making the decision, not the person reading the logs.</text>
+</svg>
