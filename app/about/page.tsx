@@ -35,9 +35,10 @@ export default function AboutPage() {
           </p>
           <p>
             At 25, after leading an arts co-op with international artists in Taipei, I
-            took a ferry to mainland China and landed in Shanghai, where I interned at
-            a government-run art museum, translating materials in the education
-            department and, at one point, leading a tour for expats. I applied to grad
+            took a ferry to Xiamen in mainland China, then a two-day train ride to
+            Shanghai, where I interned at a government-run art museum, translating
+            materials in the education department and, at one point, leading a tour for
+            expats. I applied to grad
             school from there. The applications were rejected, not for merit, but
             because my identity was stolen and the payments never went through. I
             moved back to the U.S. dejected, into a recession-era job market that
