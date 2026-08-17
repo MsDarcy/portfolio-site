@@ -50,8 +50,8 @@ export default function PolicyGapInsurePage() {
       </CaseStudySection>
       <CaseStudyFigure
         src="/images/policygap/b2_five_field_output.png"
-        alt="Five fixed policy fields converging to a plain-language adequacy read"
-        caption="A fixed five-field structure, plus a plain-language adequacy read"
+        alt="Five-field structured output with a plain-language adequacy read"
+        caption="A fixed five-field structure, plus a plain-language adequacy read."
       />
       <CaseStudySection heading="Action">
         <p>
@@ -74,8 +74,8 @@ export default function PolicyGapInsurePage() {
         </p>
         <CaseStudyFigure
           src="/images/policygap/b1_dual_input_model.png"
-          alt="Policy photo and pasted text input paths feeding AI extraction"
-          caption="Two equally supported input paths feed one structured extraction step"
+          alt="Two flexible input paths feeding one AI extraction step"
+          caption="Two equally supported input paths feed one structured extraction step."
         />
         <p>
           Trust required a restraint principle, held firm. Because financial and
@@ -97,8 +97,8 @@ export default function PolicyGapInsurePage() {
         </p>
         <CaseStudyFigure
           src="/images/policygap/b4_trust_boundary_model.png"
-          alt="Trust boundary model excluding referrals, lead capture, and recommendations"
-          caption="What the product deliberately excludes is what makes it trustworthy"
+          alt="Trust boundary diagram showing excluded features that build trust"
+          caption="What the product deliberately excludes is what makes it trustworthy."
         />
         <p>
           AI extraction demanded transparency, not black-box confidence. Because
@@ -111,8 +111,8 @@ export default function PolicyGapInsurePage() {
         </p>
         <CaseStudyFigure
           src="/images/policygap/b3_confidence_signal_model.png"
-          alt="Confidence signal model for extracted policy fields"
-          caption="Every field carries a confidence signal instead of implied certainty"
+          alt="Confidence signal model showing high-confidence vs. please-verify fields"
+          caption="Every field carries a confidence signal instead of implied certainty."
         />
         <p>
           Built and shipped independently, using Claude and Cursor for development
