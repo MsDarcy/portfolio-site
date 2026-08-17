@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { IndependentAIPracticeCards } from "@/components/IndependentAIPracticeCards";
 import { SelectedWorkCards } from "@/components/SelectedWorkCards";
 
 export const metadata: Metadata = {
@@ -16,6 +17,16 @@ export default function WorkIndexPage() {
         dashboards, and governance.
       </p>
       <SelectedWorkCards />
+
+      <section
+        className="home__section"
+        aria-labelledby="independent-ai-practice-heading"
+      >
+        <h2 id="independent-ai-practice-heading" className="home-section__title">
+          Independent AI Practice
+        </h2>
+        <IndependentAIPracticeCards />
+      </section>
     </div>
   );
 }
