@@ -116,8 +116,15 @@ export default function PolicyGapInsurePage() {
       <CaseStudySection heading="Result">
         <p>
           PolicyGap v1 is live at{" "}
-          <a href="https://policygap.insure">policygap.insure</a> and gathering its
-          first users and real-world feedback.
+          <a
+            href="https://policygap.insure"
+            className="about-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            policygap.insure
+          </a>{" "}
+          and gathering its first users and real-world feedback.
         </p>
         <p>
           Try it yourself with a real policy, a photo or pasted text is all it takes,
