@@ -646,6 +646,10 @@ body {
   margin-bottom: clamp(2rem, 5vw, 3rem);
 }
 
+.work-index .home__section:first-of-type {
+  margin-top: clamp(3rem, 8vw, 5.5rem);
+}
+
 /* ——— About (Inter, light canvas) ——— */
 
 .about-layout {
