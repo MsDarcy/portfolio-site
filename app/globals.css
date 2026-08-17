@@ -476,6 +476,10 @@ body {
   gap: 0;
 }
 
+.case-study__sections--artifacts > .case-study__section + .case-study__section {
+  margin-top: clamp(2.25rem, 5vw, 3.25rem);
+}
+
 /* Case study figures (SVG / image artifacts) */
 .case-study-figure {
   margin: 48px auto;
