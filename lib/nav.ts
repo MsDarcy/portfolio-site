@@ -8,3 +8,10 @@ export const workNavItems = [...selectedWorkCards, ...independentAIPracticeCards
     label: title,
   }),
 );
+
+/** Header About menu — anchor links to /about sections. */
+export const aboutNavItems = [
+  { href: "/about#my-story", label: "My Story" },
+  { href: "/about#ways-of-working", label: "Ways of Working" },
+  { href: "/about#career-highlights", label: "Career Highlights" },
+] as const;

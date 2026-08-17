@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { workNavItems } from "@/lib/nav";
+import { aboutNavItems, workNavItems } from "@/lib/nav";
+import { AboutDropdown } from "./AboutDropdown";
 import { WorkDropdown } from "./WorkDropdown";
 
 export function HeaderNav() {
@@ -10,10 +10,8 @@ export function HeaderNav() {
 
   return (
     <nav className="site-nav" aria-label="Primary">
-      <WorkDropdown key={pathname} items={workNavItems} />
-      <Link href="/about" className="site-nav__link">
-        About
-      </Link>
+      <WorkDropdown key={`work-${pathname}`} items={workNavItems} />
+      <AboutDropdown key={`about-${pathname}`} items={aboutNavItems} />
     </nav>
   );
 }
